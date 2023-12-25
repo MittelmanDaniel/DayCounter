@@ -94,9 +94,8 @@
 		41A799252B38ECA600D409B5 /* DayCounter */ = {
 			isa = PBXGroup;
 			children = (
-				41A799262B38ECA600D409B5 /* DayCounterApp.swift */,
-				41A799282B38ECA600D409B5 /* ContentView.swift */,
-				41A7992A2B38ECA700D409B5 /* Assets.xcassets */,
+				977420092B3919A1000FAC61 /* ViewController */,
+				977420082B391996000FAC61 /* Resources */,
 				41A7992C2B38ECA700D409B5 /* Preview Content */,
 			);
 			path = DayCounter;
@@ -125,6 +124,23 @@
 				41A799432B38ECA700D409B5 /* DayCounterUITestsLaunchTests.swift */,
 			);
 			path = DayCounterUITests;
+			sourceTree = "<group>";
+		};
+		977420082B391996000FAC61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41A7992A2B38ECA700D409B5 /* Assets.xcassets */,
+				41A799262B38ECA600D409B5 /* DayCounterApp.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		977420092B3919A1000FAC61 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41A799282B38ECA600D409B5 /* ContentView.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
